@@ -55,7 +55,7 @@ Now, 2022:
 
 We can see that the price started falling down again.
 
-I know that when we talk about stock market we try to profit with it. So, nothing is better than looking at moments that gave to the investitors the biggest profits. I'm gonna look just at 2021, which was the year of price boom. 
+I know that when we talk about stock market we try to profit it. So, nothing better than looking at moments that gave to the investitors the biggest profits. I'm gonna look just at 2021, which was the year of price boom. 
 
 And to start this analysis, let's take a look at the daily and monthly close price variation:
 
