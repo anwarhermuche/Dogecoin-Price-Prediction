@@ -6,7 +6,7 @@
 
 The aim of this project is to predict the dogecoin's close price in the future in order to make good decisions at the stock market.
 
-You can download the dataset at Finance Yahoo's page, searching for "Dogecoin", clicking at "Historical Data" and then download. Or just <a href="https://finance.yahoo.com/quote/DOGE-USD/history?p=DOGE-USD">click here</a>
+You can download the dataset at Finance Yahoo's page, searching for "Dogecoin", clicking at "Historical Data" and then download. Or just <a href="https://finance.yahoo.com/quote/DOGE-USD/history?p=DOGE-USD" target="_blank">click here</a>
 
 ## 🗃️ Project topics
 
@@ -79,7 +79,7 @@ Analysing this dataframe, we can extract the following insights of 2021:
   <li> The max profit was 157.57x, and it happened buying at 2021/01/01 and selling at 2021/05/08, i.e. 127.0 days between the buy and sell
 </ul>
 
-## 📈 The Prediction
+## 📈 The Prediction & Conclusion
 
 To predict the dogecoin's close price, I used autots package. According to it's official documentation, AutoTS is a time series package for Python designed for rapidly deploying high-accuracy forecasts at scale. 
 
@@ -92,3 +92,5 @@ After predicting, these are the values that the algorithm returned:
 Plotting in a graphic:
 
 <img src="https://i.ibb.co/cJCGzWZ/Screenshot-7.png">
+
+Analysing this, we can see that the close price probabily is gonna raise at the next days.
