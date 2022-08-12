@@ -4,7 +4,7 @@
 
 ## 🔍 About this project 
 
-The aim of this project is to predict the dogecoin's close price in the future in order to make good decisions at the stock market.
+The aim of this project is to predict the dogecoin's close price in order to make good decisions at the stock market.
 
 You can download the dataset at Finance Yahoo's page, searching for "Dogecoin", clicking at "Historical Data" and then download. Or just <a href="https://finance.yahoo.com/quote/DOGE-USD/history?p=DOGE-USD" target="_blank">click here</a>
 
@@ -41,11 +41,13 @@ Let's start visualizing the graph that shows the close price variation during th
 
 <img src="https://i.ibb.co/YpN2bRp/Screenshot-1.png">
 
-We can clearly see that the most important part of this analysis is between 2021 and 2022, so let's take a look more closer. Starting with 2021:
+We can clearly see that the most important part of this analysis is between 2021 and 2022, so let's take a look more closer. 
+
+Starting with 2021:
 
 <img src="https://i.ibb.co/bNHf68T/Screenshot-2.png">
 
-In this period, we reach the maximum close price of dogecoin at 05/07/2021. 
+In this period, we've reached the maximum close price of dogecoin at 05/07/2021. 
 
 Now, 2022:
 
@@ -53,11 +55,15 @@ Now, 2022:
 
 We can see that the price started falling down again.
 
-I know that when we talk about stock market we try to profit with it. So, nothing is better than looking at moments that gave to the investitors the biggest profits. I'm gonna look just at 2021, which was the year of price boom. And to start this analysis, let's take a look at the daily and monthly close price variation:
+I know that when we talk about stock market we try to profit with it. So, nothing is better than looking at moments that gave to the investitors the biggest profits. I'm gonna look just at 2021, which was the year of price boom. 
+
+And to start this analysis, let's take a look at the daily and monthly close price variation:
 
 <img src="https://i.ibb.co/wBGfb4Q/Screenshot-4.png">
 
-In 2021, we had 884 days with positive close price variation; 844 days with negative close price variation; and 8 days with no close price variation. In addition, the maximum postive price variation was 0.1433. And the minimum negative price variation was -0.1843 in a day.
+In 2021, we had 884 days with positive close price variation; 844 days with negative close price variation; and 8 days with no close price variation. 
+
+In addition, the maximum postive price variation was 0.1433. And the minimum negative price variation was -0.1843 in a day.
 
 Now, let's see the montly close price variation
 
@@ -65,7 +71,7 @@ Now, let's see the montly close price variation
 
 We had 6 months with positive price variation and 6 months with negative price variation.
 
-Ok, we saw the variations between dates in the same year, but we know that some people invest their money and keep it there for years to get a great profit. So we need to look at the whole dataset, and this is what I did. 
+Ok, we've just seen the variations between dates in the same year, but we know that some people invest their money and keep it there for years to get a great profit. So we need to look at the whole dataset, and this is what I did. 
 
 I created a loop to tell me all the profits greater than 100% between all the dates since 2017. Take a look:
 
@@ -94,3 +100,5 @@ Plotting in a graphic:
 <img src="https://i.ibb.co/cJCGzWZ/Screenshot-7.png">
 
 Analysing this, we can see that the close price probabily is gonna raise at the next days.
+
+That's it! Be aware of the prices to make good decisions at stock market. Thank you for your attention!
